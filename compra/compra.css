@@ -1,0 +1,410 @@
+body{
+	font-size:100%;
+	background-color: #ffffff;
+	font-family:sans-serif;
+}
+
+#drop-menu {
+	position: static;
+	padding: 0;
+	width: 100%;
+}
+
+ul#menu {
+	margin:0px 0 0;
+	height: 43px;
+	padding: 0;
+	list-style: none;
+	float:left;
+	width: 100%;
+	background: rgb(0, 102, 255);
+	font-size:80%
+}
+
+ul#menu li {
+	margin:0;
+	padding:0;
+	float:left;
+	display: block;
+	position: relative;
+}
+
+.maiuscolo{
+	text-transform: uppercase;
+}
+
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+ul#menu li a{
+	float: left;
+	padding:14px 37.5px;
+	color: #fff;
+	text-decoration:none;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+ul#menu li a:hover {
+	background: #666;
+	color:#fff
+}
+
+
+ul#menu ul {
+	margin:2px 0 0;
+	padding:0;
+	display:inline-block;
+	list-style: none;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index:9999;
+	background: #444;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+
+.tendina_sottocategorie{
+	padding:10px;
+	width: 110px;
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+	float: left;
+}
+.tendina_categorie {
+	padding:15px;
+	width: 75px;
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+	float: left;
+}
+
+.tendina_utente{
+	padding:10px;
+	width: 125px;
+	display: block;
+	white-space: nowrap;
+	float: none;
+	text-transform: none;
+	float: left;
+}
+
+
+.user{
+	margin-top: -50px;
+	margin-left: 1050px;
+	color: white;
+	font-size: 16px;
+}
+
+ul#menu li:hover > ul {
+	opacity: 1;
+	visibility: visible;
+}
+
+ul#menu ul li {
+	float: none;
+	display: block;
+}
+
+ul#menu ul a:hover {
+	background-color: #0186ba;
+	color:#fff
+}
+
+ul#menu ul ul {
+	top: 0;
+	left: 150px;
+	margin: 0;
+}
+
+.accedi{
+	margin-top: -40px;
+	margin-left: 1225px;
+	text-transform: uppercase;
+}
+
+.cerca{
+	height: 30px;
+	width: 400px;
+	margin-top: 5px;
+	margin-left: 250px;
+	border: none;
+	outline: 0;
+	border-radius: 20px;
+	font-size: 12px;
+	padding-left: 25px;
+}
+
+.cerca_btn{
+	margin-left: -45px;
+	height: 32px;
+	border: none;
+	border-radius: 75px;
+}
+
+.tabella_ordini{
+	border-spacing: 30px;
+	border-collapse: separate;
+	font-size: 18px;
+}
+
+.hidden {
+	display: none;
+}
+		
+.slider {
+	width: 100%;
+}
+		
+div.slider {
+	height: 200px;
+	padding: 0px;
+	top: 0px;
+}
+		
+div.menu {
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+}
+		
+div.container {
+	width: 200px;
+	margin: auto;
+	border: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.foto_prod{
+	width: 300px;
+	height: 300px;
+	margin-left: 80px;
+	margin-top: -3px;
+}
+
+.foto_prod2{
+	width: 500px;
+	height: 500px;
+	margin-left: 250px;
+	margin-top: -175px;
+}
+
+.foto_prod_carr{
+	width: 250px;
+	height: 250px;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.titolo{
+	text-align: center;
+	font-family: monospace;
+	margin-top: 75px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.nome_prod{
+	font-size: 18px;
+	margin-left: 250px;
+}
+
+.caratteristiche{
+	height: 250px;
+	width: 100%;
+}
+
+.descrizione{
+	margin-top: 75px;
+}
+
+.descrizione_div{
+	width: 700px;
+	height: 200px;
+	margin-left: 430px;
+	margin-top: -250px;
+}
+
+.prodotto_carr{
+	margin-top: 50px;
+}
+
+.costo_carr{
+	margin-left: 150px;
+	font-size: 16px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.nomemagazzino_quantita{
+	margin-left: 1050px;
+	margin-top: -550px;
+	width: 290px;
+	height: 50px;
+}
+
+.prezzo_prod_prod{
+	font-weight: bold;
+	margin-left: 0px;
+	font-size: 16px;
+}
+
+.prod_prezzo{
+	margin-top: 20px;
+	margin-left: 170px;
+	font-weight: bold;
+}
+
+.prezzo_forn{
+	margin-left: 1050px;
+	margin-top: 200px;
+}
+
+.tabella_ordini{
+	margin-left: 246px;
+}
+
+.nome_prod_grass{
+	font-weight: bold;
+}
+
+.prezzo_grass{
+	font-weight: bold;
+}
+
+.data_acquisto_grass{
+	font-weight: bold;
+}
+
+.quantita_grass{
+	font-weight: bold;
+}
+
+.acquista{
+	margin-left: 175px;
+	height: 40px;
+	width: 200px;
+	padding-right: 7.5px;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(0, 102, 255);
+	color: white; 
+}
+
+#tendina{
+    position: absolute;
+    left: 500px;
+    top: 0.2px;
+    z-index: 2;
+	width: 450px;
+	height: 250px;
+	text-align: center;
+	background-color: rgba(52,73,94,1);
+	border-radius: 4px;
+	margin: 0 auto;
+}
+
+.conferma_acquisto{
+	margin-top: -50px;
+	height: 40px;
+	width: 200px;
+	padding-right: 7.5px;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(0, 102, 255);
+	color: white; 
+}
+
+.btn_aggiungi{
+	margin-top: -50px;
+	height: 40px;
+	width: 200px;
+	padding-right: 7.5px;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(0, 102, 255);
+	color: white;	
+}
+
+.btn_prod_carrello{
+	margin-left: 100px;
+	height: 25px;
+	width: 150px;
+	padding-right: 7.5px;
+	border-radius: 4px;
+	border: none;
+	background-color: red;
+	color: white; 	
+}
+
+.caselle_conferma_acquisto_txt_1{
+	height: 30px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	margin-top: 10px;
+	padding-left: 25px;
+}
+
+.caselle_conferma_acquisto_txt_2{
+	height: 30px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	margin-top: 5px;
+	padding-left: 25px;
+}
+
+.inserisci_credenziali{
+	color: white;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+.nessun_articolo_div{
+	margin-top: 12.5px;
+}
+
+.nessun_articolo_div_nella_pag{
+	margin-top: 12.5px;
+}
+
+.nessun_articolo_acquista{
+	margin-left: 620px;
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+	padding-right: 7.5px;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(0, 102, 255);
+	color: white;		
+}
+

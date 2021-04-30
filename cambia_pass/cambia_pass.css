@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../immagini/sfondo.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center; 
+}
+
+.container{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input{
+	height: 35px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 50px;
+}
+
+.person_in::before{
+	content: "\f007";
+	margin-left: 10px;
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	margin-top: 2.5px;
+	color: rgb(0, 102, 255);
+}
+
+.pass_in::before{
+	content: "\f023";
+	margin-left: 10px;
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	margin-top: 2.5px;
+	color: rgb(0, 102, 255);
+}
+
+.controlla_pass_in::before{ 
+	content: "\f058";
+	margin-left: 10px;
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	margin-top: 2.5px;
+	color: rgb(0, 102, 255);
+}
+
+.btn1{
+	border: 1px solid white;
+	padding: 15px 45px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.btn2{
+	border: 1px solid white;
+	padding: 15px 45px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.btn3{
+	border: 1px solid white;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.button{
+	margin-left: 860px;
+	margin-top: 30px;
+}
+
+input[type="submit"]{
+	height: 40px;
+	width: 100px;
+	padding-right: 180px;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(0, 102, 255);
+	color: white; 
+}
+
+p{
+	color: white;
+}
